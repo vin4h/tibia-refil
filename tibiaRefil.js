@@ -44,10 +44,6 @@ client.on("message", msg => {
     if (msg.content === prefix + "urso") {
       msg.reply("<@bruhh_br#2160>so olha o !.comandos")
     }
-
-    if (msg.content === prefix + "comandos") {
-      msg.reply(comandos)
-    }
   }
 })
 
