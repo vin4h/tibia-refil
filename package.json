@@ -4,7 +4,7 @@
   "description": "",
   "main": "TibiaRefil.js",
   "scripts": {
-    "start": "node TibiaRefil.js"
+    "start": "node tibiaRefil.js"
   },
   "author": "",
   "license": "ISC",
