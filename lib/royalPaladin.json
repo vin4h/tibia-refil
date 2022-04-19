@@ -1,8 +1,12 @@
 {
-  "gt": "600x Spectral Bolt \n 300x Diamond Arrow \n 700x Great Mana Potion \n 400x Avalanche \n 250x SD \n 2x Energy Ring",
+  "gt": {
+    "refil": "600x Spectral Bolt \n 300x Diamond Arrow \n 700x Great Mana Potion \n 400x Avalanche \n 250x SD \n 2x Energy Ring",
+    "optional": "Pendulet Amulet"
+  },
   "rotacao": {
     "info": "Rotação inclui GT + LULU + Leiden",
-    "refil": "1000x Spectral Bolt \n 300x Diamond Arrow \n 900x Great Mana Potion \n 400x Avalanche \n 350x SD \n 2x Energy Ring \n 50x Ultimate Healing Rune"
+    "refil": "1000x Spectral Bolt \n 300x Diamond Arrow \n 900x Great Mana Potion \n 400x Avalanche \n 350x SD \n 2x Energy Ring \n 50x Ultimate Healing Rune",
+    "optional": "Max Defesa Energy e fisico, Sleep Shawl e/ou Pendulet"
   },
   "walls": {
     "info": "Min LvL (sugestão) 250+ Solo",

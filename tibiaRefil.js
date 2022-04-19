@@ -9,7 +9,7 @@ const infoMs = require("./lib/masterSorcerer.json")
 client.on("message", msg => {
   if (msg.content.includes(prefix)) {
     if (msg.content === prefix + "rp.gt") {
-      msg.reply(infoRp.gt);
+      msg.reply(infoRp.gt.refil + "\n" + infoRp.gt.optional);
     }
 
     if (msg.content === prefix + "rp.rotacao") {
