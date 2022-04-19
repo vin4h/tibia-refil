@@ -39,6 +39,13 @@ client.on("message", msg => {
     if (msg.content === prefix + "ms.gt") {
       msg.reply(infoMs.gt)
     }
+
+    if (msg.content === prefix + "urso") {
+      msg.mentions({
+        message: "Urso usa os comandos do chat",
+        user: "bruhh_br#2160"
+      })
+    }
   }
 })
 
