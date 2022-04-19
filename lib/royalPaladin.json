@@ -3,5 +3,10 @@
   "rotacao": {
     "info": "Rotação inclui GT + LULU + Leiden",
     "refil": "1000x Spectral Bolt \n 300x Diamond Arrow \n 900x Great Mana Potion \n 400x Avalanche \n 350x SD \n 2x Energy Ring \n 50x Ultimate Healing Rune"
+  },
+  "walls": {
+    "info": "Min LvL (sugestão) 250+ Solo",
+    "refil": "1200x Diamond Arrow \n 500x Avalanche Rune \n 900x Great Mana Potions \n 3x Ring of Blue Plasma",
+    "optional": "Max defesa fisica e redução fisico, imbuir armadura contra FIRE \n 1x ou 2x Sleep Shawl"
   }
 }

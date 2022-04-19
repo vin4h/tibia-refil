@@ -15,6 +15,10 @@ client.on("message", msg => {
       msg.reply(infoRp.rotacao.refil);
     }
 
+    if (msg.content === prefix + "rp.walls") {
+      msg.reply(infoRp.walls);
+    }
+
     if (msg.content === prefix + "ek.gt") {
       msg.reply(infoEk.gt);
     }
