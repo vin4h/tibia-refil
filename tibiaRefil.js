@@ -16,7 +16,7 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "rp.walls") {
-      msg.reply(infoRp.walls);
+      msg.reply(infoRp.walls.info + "\n" + infoRp.walls.refil + "\n" + infoRp.walls.optional);
     }
 
     if (msg.content === prefix + "ek.gt") {
