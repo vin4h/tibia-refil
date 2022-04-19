@@ -13,7 +13,7 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "rp.rotacao") {
-      msg.reply(infoRp.rotacao.info + "\n" + infoRp.rotacao.refil + infoRp.rotacao.optional);
+      msg.reply(infoRp.rotacao.info + "\n" + infoRp.rotacao.refil + "\n" + infoRp.rotacao.optional);
     }
 
     if (msg.content === prefix + "rp.walls") {
