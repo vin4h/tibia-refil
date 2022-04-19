@@ -46,7 +46,7 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "comandos") {
-      msg.reply(JSON.stringify(comandos))
+      msg.reply(comandos)
     }
   }
 })
