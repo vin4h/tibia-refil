@@ -3,6 +3,8 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 const prefix = "!.";
 const infoRp = require("./lib/royalPaladin.json")
 const infoEk = require("./lib/eliteKnight.json")
+const infoEd = require("./lib/elderDruid.json")
+const infoMs = require("./lib/masterSorcerer.json")
 
 client.on("message", msg => {
   if (msg.content.includes(prefix)) {
@@ -11,8 +13,7 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "rp.rotacao") {
-      msg.reply(infoRp.rotacao.info);
-      msg.reply(infoRp.rotacao.refil);
+      msg.reply(infoRp.rotacao.info + "\n" + infoRp.rotacao.refil + infoRp.rotacao.optional);
     }
 
     if (msg.content === prefix + "rp.walls") {
@@ -24,8 +25,19 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "ek.rotacao") {
-      msg.reply(infoEk.rotacao.info);
-      msg.reply(infoEk.rotacao.refil);
+      msg.reply(infoEk.rotacao.info + "\n" + infoEk.rotacao.refil);
+    }
+
+    if (msg.content === prefix + "ed.gt") {
+      msg.reply(infoEd.gt)
+    }
+
+    if (msg.content === prefix + "ed.rotacao") {
+      msg.reply(infoEd.rotacao.info + "\n" + infoEd.rotacao.refil)
+    }
+
+    if (msg.content === prefix + "ms.gt") {
+      msg.reply(infoMs.gt)
     }
   }
 })
