@@ -5,6 +5,7 @@ const infoRp = require("./lib/royalPaladin.json")
 const infoEk = require("./lib/eliteKnight.json")
 const infoEd = require("./lib/elderDruid.json")
 const infoMs = require("./lib/masterSorcerer.json")
+const comandos = require('./lib/comandos.json')
 
 client.on("message", msg => {
   if (msg.content.includes(prefix)) {
@@ -41,10 +42,11 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "urso") {
-      msg.mentions({
-        message: "Urso usa os comandos do chat",
-        user: "bruhh_br#2160"
-      })
+      msg.reply("<@bruhh_br#2160>so olha o !.comandos")
+    }
+
+    if (msg.content === prefix + "comandos") {
+      msg.reply(JSON.stringify(comandos))
     }
   }
 })

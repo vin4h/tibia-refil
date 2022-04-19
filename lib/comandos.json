@@ -1,0 +1,23 @@
+{
+  "prefixo": "!.",
+  "comandos": {
+    "rp": {
+      "gt": "rp.gt",
+      "rotacao": "rp.rotacao",
+      "walls": "rp.walls"
+    },
+    "ek": {
+      "gt": "ek.gt",
+      "rotacao": "ek.rotacao"
+    },
+    "ed": {
+      "gt": "ed.gt",
+      "rotacao": "ed.rotacao",
+      "walls": "ed.walls"
+    },
+    "ms": {
+      "gt": "ms.gt",
+      "rotacao": "ms.rotacao"
+    }
+  }
+}
