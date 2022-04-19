@@ -20,8 +20,8 @@ client.on("message", msg => {
     }
 
     if (msg.content === prefix + "ek.rotacao") {
-      msg.reply(infoRp.rotacao.info);
-      msg.reply(infoRp.rotacao.refil);
+      msg.reply(infoEk.rotacao.info);
+      msg.reply(infoEk.rotacao.refil);
     }
   }
 })
